@@ -1,0 +1,247 @@
+body {
+    font-family: Prompt;
+}
+
+
+
+* {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header {
+    margin-top: 14px;
+    margin-bottom: 48px;
+}
+.header__logo {
+    background: #656565;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+
+    }
+
+
+
+.logo {
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: Prompt;
+
+}
+
+.header__menu {
+    background: #A8A8A8;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.col-xl-2.header__button {
+    background: #656565;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+
+.btn.nav__button {
+    color: #fff;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+section {
+    margin-bottom: 120px;
+}
+.row.offer__section.justify-content-center>div {
+    background: linear-gradient(0deg, rgba(147, 147, 147, 0.50) 0%, rgba(147, 147, 147, 0.50) 100%), #AFAFAF;
+    height: 514px;
+}
+
+.col-xl-12.offer__wrapper {
+    display: block;
+    gap: 41px;
+    text-align: center;
+    padding-top: 116px;
+}
+
+.text {
+    color: #fff;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: Prompt;
+}
+
+.title {
+    color: #fff;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 50px;
+    font-family: Prompt;
+}
+
+.section-title {
+    color: #6D6D6D;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 70px;
+    font-family: Prompt;
+   }
+
+
+
+.row.gallery-wrapper>.col-xl-4 {
+    padding-left: 0;
+    padding-right: 24px;
+}
+
+.gallery-wrapper>.col-xl-4>.content{
+    height: 540px;
+}
+
+
+.content{
+    background: rgba(99, 99, 99, 0.50);
+    height: 255px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.gallery {
+    height: 742px;
+}
+
+
+.gallery-subwrapper>div{
+    margin-bottom: 1.88rem;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.gallery-subwrapper>.row>div:last-child {
+    padding-left: 24px;
+    padding-right: 0px;
+}
+
+.carousel.slide {
+    height: 636px;
+}
+
+.d-block.w-100 {
+    height: 600px;
+    background: #707070;
+}
+div#carouselExampleIndicators.carousel.slide {
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+.carousel-indicators {
+    top: 620px;
+   
+}
+
+.carousel-indicators.slider {
+    gap: 16px;
+    margin-bottom: 0px;
+    height: 16px;
+    align-items: center;
+}
+.carousel-indicators.slider>button  {
+    background-color: #656565;
+    height: 16px;
+    width: 13px;}
+
+.carousel-control-prev , .carousel-control-next {
+    height: 600px;
+}
+
+.row.justify-content-between.description-row > .col-xl-5 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.description-subtitle {
+    margin-top: 17px;
+    margin-bottom: 42px;
+}
+.description-subtitle:first-child {
+    margin-top: 83px;
+}
+.description-text {
+    font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 140%;
+margin-bottom: 0;
+font-family: Prompt;
+}
+
+.col-xl-6.description-image {
+    padding-left: 0;
+    padding-right: 0;
+}
+.description-image>div {
+    background: #D9D9D9;
+    height: 400px;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    }
+
+li {
+    list-style-type: none;
+    margin-bottom: 34px;
+    font-family: Prompt;
+}
+
+li:last-child {
+    margin-bottom: 0px;
+}
+.price-image>div {
+    background: #D9D9D9;
+    height: 396px;
+}
+
+
+
+.col-xl-6.price-image {
+    padding-left: 0;
+    padding-right: 0;
+}
+.row.fluid-wrapper>.col-xl-4>.content {
+    height: 600px;
+
+}
+.fluid-subwrapper>div{
+    margin-bottom: 1.88rem;
+    padding-left: 0px;
+    padding-right: 0px;}
+
+.col-xl-8.fluid-subwrapper>.row>.col-xl-4>.content {
+    height: 285px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.footer-text {
+    color: #3E3E3E;
+    text-align: center;
+}
+
+.row.justify-content-center.footer-row {
+    height: 69px;
+}
+
+.footer-text {
+    margin-bottom: 0;
+}
