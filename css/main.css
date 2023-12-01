@@ -283,6 +283,7 @@ width: 100px;
 .accordion-button.head-button {
    background: #FBDCC7;
    border: none;
+   color: #000;
    
 }
 
