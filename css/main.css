@@ -187,6 +187,12 @@ width: 100px;
     border-top-left-radius: 20px;
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+    .nav-link {
+        width: auto;
+    }
+}
+
 .modal-section,.accordion-section {
     margin-bottom: 121px;
 }
@@ -215,7 +221,8 @@ width: 100px;
 
 @media (min-width: 768px) and (max-width: 992px) {
 .tab-item {
-    padding-right: 34px;
+    padding: 34px;
+    
 }
 }
 .nav.nav-tabs.nav__button-wrapper {
