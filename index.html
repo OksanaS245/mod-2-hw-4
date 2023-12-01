@@ -14,25 +14,25 @@
     <header class="header-section">
         <div class="container">
             <div class="row justify-content-between">
-               <div class="col-xl-7 header__menu-wrapper">
+               <div class="col-xl-7 col-md-7 header__menu-wrapper">
                     <a href="#">
                         <img src="img/logo.png" class="menu__logo" alt="logo" style="height: 32px; width: 32px;">
                     </a>
                     <nav class="nav__wrapper">
                         <ul class="menu__list">
-                            <li class="menu item">Carousel</li>
-                            <li class="menu item">Modal&Tabs</li>
-                            <li class="menu item">Accordion</li>
+                            <li class="menu item"><a href="#carousel">Carousel</a></li>
+                            <li class="menu item"><a href="#modal">Modal&Tabs</a></li>
+                            <li class="menu item"><a href="#accordion">Accordion</a></li>
                         </ul>
                     </nav>
                </div> 
-               <div class="col-xl-2 button-wrapper">
+               <div class="col-xl-2 col-md-2 button-wrapper">
                     <button class="btn menu__button">Progress</button>
                </div>
             </div>
         </div>
     </header>
-    <section class="slider-section">
+    <section class="slider-section" id="carousel">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 slider-wrapper">
@@ -78,7 +78,7 @@
 
     </section>
 
-    <section class="modal-section">
+    <section class="modal-section" id="modal">
         <div class="container">
             <div class="row  justify-content-center">
                 <div class="col-auto">
@@ -86,12 +86,12 @@
                 </div>
             </div>
             <div class="row modal-wrapper justify-content-between align-items-center">
-                <div class="col-xl-5">
+                <div class="col-xl-5 col-md-5">
                     <button type="button" class="btn btn-primary modal__button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Vertically centered modal
                       </button>
                 </div>
-                <div class="col-xl-7 tab-wrapper">
+                <div class="col-xl-7 col-md-7 tab-wrapper">
                   <div class="tab">
                     <nav>
                       <div class="nav nav-tabs nav__button-wrapper" id="nav-tab" role="tablist">
@@ -121,7 +121,7 @@
               <div class="row">
                 <div class="col-xl-7 col-xs-2">
                   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal__window">
+                    <div class="modal-dialog modal-dialog-centered modal__window">
                       <div class="modal-content">
                         <div class="modal-header">
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
@@ -136,7 +136,7 @@
           </div>
         </div>
     </section>
-    <section class="accordion-section">
+    <section class="accordion-section" id="accordion">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-auto">

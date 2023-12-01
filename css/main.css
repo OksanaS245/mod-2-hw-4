@@ -24,7 +24,15 @@ img {
     width: 100%;
     object-fit: contain;
 }
-
+a {
+    text-decoration: none;
+    color: #000;
+    font-family: Prompt;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+}
 .header-section {
     height: 60px;
     margin-bottom: 70px;
@@ -133,7 +141,7 @@ width: 100px;
 
 .btn.btn-primary.modal__button {
     height: 100px;
-    background: #F09E68;
+    background: rgba(238, 156, 102, 0.30);
     width: 100%;
     border: none;
     border-radius: 20px;
@@ -144,6 +152,15 @@ width: 100px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .btn.btn-primary.modal__button {
+        font-size: 18px;
+    }
+}
+.btn.btn-primary.modal__button:hover {
+    background: rgba(238, 156, 102, 1);
 }
 
 .nav-tabs .nav-link.active {
@@ -178,9 +195,10 @@ width: 100px;
 }
 .tab-item {
     padding-left: 34px;
+    padding-right: 106px;
     padding-bottom: 0;
     padding-top: 58px;
-    width: 485px;
+    width: auto;
     margin: 0;
     color: #000;
     font-family: Prompt;
@@ -193,6 +211,12 @@ width: 100px;
 
 .tab-item>span {
     font-weight: 600;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+.tab-item {
+    padding-right: 34px;
+}
 }
 .nav.nav-tabs.nav__button-wrapper {
     margin-bottom: 0;
@@ -211,7 +235,7 @@ width: 100px;
 }
 
 
-.modal-dialog.modal__window {
+.modal-dialog.modal-dialog-centered.modal__window {
     display: flex;
     align-items: center;
     justify-content: center;
